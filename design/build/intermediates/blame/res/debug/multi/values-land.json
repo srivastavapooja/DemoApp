@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\Work\\Apps\\VerizonApp\\design\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "C:\\Work\\Apps\\VerizonApp\\design\\src\\main\\res\\values-land\\styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 868
+                    }
+                }
+            }
+        ]
+    }
+]

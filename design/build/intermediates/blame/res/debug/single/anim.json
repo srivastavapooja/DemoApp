@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Work\\Apps\\VerizonApp\\design\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Work\\Apps\\VerizonApp\\design\\src\\main\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Work\\Apps\\VerizonApp\\design\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Work\\Apps\\VerizonApp\\design\\src\\main\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Work\\Apps\\VerizonApp\\design\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Work\\Apps\\VerizonApp\\design\\src\\main\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Work\\Apps\\VerizonApp\\design\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Work\\Apps\\VerizonApp\\design\\src\\main\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Work\\Apps\\VerizonApp\\design\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Work\\Apps\\VerizonApp\\design\\src\\main\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Work\\Apps\\VerizonApp\\design\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Work\\Apps\\VerizonApp\\design\\src\\main\\res\\anim\\design_fab_in.xml"
+    }
+]

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Verizon Test App</string>
+    <string name="title_activity_text_screen">Greetings</string>
+    <string name="title_activity_math_screen">Maths</string>
+</resources>
