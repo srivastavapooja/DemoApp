@@ -25,13 +25,9 @@ public class TextScreen extends AppCompatActivity {
 
         TextView tv = (TextView) findViewById(R.id.jni_string);
 
-         tv.setText(getMessageFromJNI());
-    }
-    private void callback(int a) {
+        DepClass depClass = new DepClass();
 
-        System.out.println("In Java callback TextScreen");
-        System.out.println(a);
+         tv.setText(depClass.getMessageFromJNI());
     }
 
-    public native String getMessageFromJNI();
 }

@@ -22,4 +22,9 @@ public class HomeScreen extends AppCompatActivity {
         Intent intent = new Intent(this,MathScreen.class);
         startActivity(intent);
     }
+
+    public void GotoAnimationScreen(View v){
+        Intent intent = new Intent(this,OpenGLActivity.class);
+        startActivity(intent);
+    }
 }

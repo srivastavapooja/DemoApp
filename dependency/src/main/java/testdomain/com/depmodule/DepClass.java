@@ -11,5 +11,11 @@ public class DepClass {
     }
 
     public native String getMessageFromJNI();
+    public native int getSquareValueFromJNI(int val);
+
+    private int SquareCallback (int num){
+        System.out.print("in SquareCallback");
+        return num*num;
+    }
 
 }

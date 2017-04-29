@@ -15,6 +15,8 @@ import android.widget.Toast;
 
 import java.util.zip.Inflater;
 
+import testdomain.com.depmodule.DepClass;
+
 public class MathScreen extends AppCompatActivity {
     static {
         System.loadLibrary("native-lib");
@@ -39,7 +41,8 @@ public class MathScreen extends AppCompatActivity {
             public void onClick(View v) {
                 String a = MathScreen.this.numberField.getText().toString();
                 int val = Integer.parseInt(a);
-                int num = getSquareValueFromJNI(val);
+                DepClass dep1 = new DepClass();
+                int num = dep1.getSquareValueFromJNI(val);
                 MathScreen.this.numberField.clearFocus();
                 MathScreen.this.answer.setText("The Square of " + a + " is " + Integer.toString(num));
                 Toast.makeText(MathScreen.this, MathScreen.this.answer.getText(), Toast.LENGTH_LONG).show();
@@ -48,10 +51,5 @@ public class MathScreen extends AppCompatActivity {
         });
 
     }
-    public native int getSquareValueFromJNI(int val);
 
-    private int SquareCallback (int num){
-        System.out.print("in SquareCallback");
-        return num*num;
-    }
 }
