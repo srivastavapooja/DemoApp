@@ -15,51 +15,103 @@
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
-    <Button
-        android:id="@+id/display_text_btn"
+    <RelativeLayout
+        android:id="@+id/frametext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/home_text"
-        android:padding="10dp"
-        android:layout_margin="@dimen/fab_margin"
-        android:layout_weight = "0.5"
-        android:background="@color/colorPrimary"
-        android:gravity="clip_vertical"
-        android:text="Text"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Button"
-        android:onClick="GotoTextScreen"/>
+        android:layout_weight="0.5">
 
-    <Button
-        android:id="@+id/watch_video_button"
+        <ImageView
+            android:id="@+id/display_text_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/fab_margin"
+            android:gravity="clip_vertical"
+            android:onClick="GotoTextScreen"
+            android:padding="10dp"
+            android:src="@drawable/ic_hello_happy_face_art"
+            android:textAlignment="gravity"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Say Hello!!"
+            android:onClick="GotoTextScreen"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/display_text_btn"
+            android:textAlignment="gravity"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/framemath"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/home_text"
+        android:layout_alignParentEnd="true">
+    <ImageView
+
+        android:id="@+id/watch_video_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_margin="@dimen/fab_margin"
         android:layout_weight="0.5"
-        android:background="@color/colorPrimary"
+        android:padding="10dp"
         android:gravity="clip_vertical"
         android:onClick="GotoMathScreen"
-        android:text="Math"
-        android:textAlignment="gravity"
-        android:textColor="@color/colorButtonText"
+        android:src="@drawable/ic_bar_chart_diagram_schedule_graph_chart_icon"
+
         android:layout_alignParentRight="true" />
-    <Button
-        android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do Some Math!!"
+            android:onClick="GotoMathScreen"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/watch_video_button"
+            android:textAlignment="gravity"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.5"
+        android:layout_below="@+id/frametext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/animation_btn"
-        android:text="Animation"
-        android:layout_margin="@dimen/fab_margin"
+        android:text="Check Animation"
         android:textAlignment="gravity"
+        android:layout_gravity="center"
+        android:padding="10dp"
         android:background="@color/colorPrimary"
         android:textColor="@color/colorButtonText"
         android:layout_weight="1"
-        android:gravity="center_horizontal"
         android:onClick="GotoAnimationScreen"
-        android:layout_below="@+id/watch_video_button"
-        android:layout_alignParentRight="true"
-        />
+        android:layout_marginTop="42dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:src="@drawable/ic_animationsvg"
+        android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Animation!!"
+            android:onClick="GotoAnimationScreen"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/animation_btn"/>
 
+</RelativeLayout>
 
 </RelativeLayout>
